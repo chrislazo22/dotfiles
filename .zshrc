@@ -16,13 +16,13 @@ CASE_SENSITIVE="true"
 zstyle ':omz:update' mode reminder
 
 # Plugins
-plugins=(git rails tmux asdf)
+plugins=(tmux)
 
 # Source
 source $ZSH/oh-my-zsh.sh
 
 # Editor of choice
-export EDITOR='vim' # Editor of choice
+export EDITOR='nvim' # Editor of choice
 
 # No shared history between tmux panes
 setopt nosharehistory
