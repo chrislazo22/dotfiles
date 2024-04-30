@@ -350,7 +350,10 @@ bind q killp
 # remap move to beginning of line
 bind a send-prefix
 
-# vim scolling
+# sync all panes
+bind S setw synchronize-panes
+
+# vim scrolling
 # set-window-option mode-keys emacs
 
 # -- tpm -----------------------------------------------------------------------
