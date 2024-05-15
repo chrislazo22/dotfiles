@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "prettier-eslint-cli": "^7.0.0"
+  }
+}
