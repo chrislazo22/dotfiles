@@ -21,10 +21,11 @@ alias gc='git commit'
 alias gcm='git commit -m'
 alias gco='git checkout'
 alias gcb='git checkout -b'
-alias gd='git diff'
+alias gd='clear; git diff'
 alias glo='git log --oneline --decorate'
 alias gst='git status'
 alias gl='git pull'
+alias gb='git branch'
 
 ### maxwell (could delete)
 alias load_temp='bin/rails loan_app_v2:repopulate_v2_templates'
@@ -33,6 +34,7 @@ alias hrc="heroku run 'rails console -- --noautocomplete' --remote"
 ### rails
 alias rsff='rspec --fail-fast'
 alias rspec='bundle exec rspec'
+alias rrg='rails routes | grep '
 
 ### silver searcher
 alias agg='ag -g'

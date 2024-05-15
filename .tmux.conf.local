@@ -315,7 +315,7 @@ tmux_conf_copy_to_os_clipboard=false
 # increase history size
 #set -g history-limit 5000
 
-# start with mouse mode enabled
+# start with mouse mode disabled
 set -g mouse off
 
 # force Vi mode
