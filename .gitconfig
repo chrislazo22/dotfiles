@@ -2,3 +2,5 @@
 [user]
 	name = Chris Lazo
 	email = lazochristian.cl@gmail.com
+[core]
+	pager =
