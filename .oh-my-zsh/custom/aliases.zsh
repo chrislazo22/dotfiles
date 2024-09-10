@@ -26,6 +26,8 @@ alias glo='git log --oneline --decorate'
 alias gst='git status'
 alias gl='git pull'
 alias gb='git branch'
+alias gp='git push'
+alias gpsup='git push --set-upstream origin $(git_current_branch)'
 
 ### maxwell (could delete)
 alias load_temp='bin/rails loan_app_v2:repopulate_v2_templates'
