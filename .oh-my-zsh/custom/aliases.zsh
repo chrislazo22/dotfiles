@@ -51,3 +51,6 @@ alias vim='nvim'
 alias vi='vim'
 alias rs="bundle exec rspec"
 alias gcogem="gco Gemfile.lock"
+
+### python
+alias python='python3'
