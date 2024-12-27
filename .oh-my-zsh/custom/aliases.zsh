@@ -1,14 +1,3 @@
-# You can put files here to add functionality separated per file, which
-# will be ignored by git.
-# Files on the custom/ directory will be automatically loaded by the init
-# script, in alphabetical order.
-
-# For example: add yourself some shortcuts to projects you often work on.
-#
-# brainstormr=~/Projects/development/planetargon/brainstormr
-# cd $brainstormr
-#
-
 ### CUSTOM ALIASES
 
 
@@ -53,3 +42,8 @@ alias python='python3'
 
 ### yadm
 alias y='yadm'
+alias ya='yadm add'
+alias ys='yadm status'
+alias yc='yadm commit'
+alias yp='yadm push'
+alias yd='yadm diff'
