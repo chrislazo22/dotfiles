@@ -3,7 +3,7 @@ vim.cmd("let g:netrw_liststyle = 3")
 
 local opt = vim.opt
 
------ Gernal Appearance -----
+----- General Appearance -----
 
 --  line numbers
 opt.relativenumber = true
@@ -36,3 +36,6 @@ opt.clipboard:append("unnamedplus")
 -- split windows
 opt.splitright = true -- split vertical window to the right
 opt.splitbelow = true -- split horizontal window to the bottom
+
+-- disable mouse support
+opt.mouse = ""

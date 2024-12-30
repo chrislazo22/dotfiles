@@ -16,6 +16,6 @@ keymap.set("n", "<leader>seq", "<C-w>=", { desc = "Make splits equal size" }) --
 keymap.set("n", "<leader>sc", "<cmd>close<CR>", { desc = "Close current split" }) -- close current split window
 
 -- buffer management
-keymap.set("n", "<leader>bn", "<cmd>bn<CR>", { desc = "Next buffer" }) 
-keymap.set("n", "<leader>bp", "<cmd>bp<CR>", { desc = "Previous buffer" }) 
-keymap.set("n", "<leader>bc", "<cmd>bd<CR>", { desc = "Close buffer" })
+keymap.set("n", "<leader>x", "<cmd>bn<CR>", { desc = "Next buffer" }) 
+keymap.set("n", "<leader>z", "<cmd>bp<CR>", { desc = "Previous buffer" }) 
+keymap.set("n", "<leader>c", "<cmd>bd<CR>", { desc = "Close buffer" })
