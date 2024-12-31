@@ -19,3 +19,6 @@ keymap.set("n", "<leader>sc", "<cmd>close<CR>", { desc = "Close current split" }
 keymap.set("n", "<leader>x", "<cmd>bn<CR>", { desc = "Next buffer" }) 
 keymap.set("n", "<leader>z", "<cmd>bp<CR>", { desc = "Previous buffer" }) 
 keymap.set("n", "<leader>c", "<cmd>bd<CR>", { desc = "Close buffer" })
+
+-- center cursor on middle of screen during search
+keymap.set('n', 'n', 'nzzzv', { noremap = true, silent = true })
