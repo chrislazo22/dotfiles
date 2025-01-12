@@ -4,8 +4,14 @@ vim.g.mapleader = " "
 local keymap = vim.keymap
 
 ----- General Keymaps -----
--- exit insert mode with "jk" testing this
+-- exit insert mode with "jk" and disable escape
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" }) 
+keymap.set("i", "<Esc>", "<Nop>")
+
+-- nvim completion list navigation
+keymap.set("c", "<C-j>", "<C-n>", { noremap = true, silent = true })
+keymap.set("c", "<C-k>", "<C-p>", { noremap = true, silent = true })
+
 -- clear search highlight
 keymap.set("n", "<leader><leader>", ":nohl<CR>", { desc = "Clear search highlights" }) 
 
