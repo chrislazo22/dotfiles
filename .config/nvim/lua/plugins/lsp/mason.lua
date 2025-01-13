@@ -30,6 +30,7 @@ return {
 				"rubocop",
 				"ruby_lsp",
 			},
+			automatic_installation = true,
 		})
 
 		mason_tool_installer.setup({

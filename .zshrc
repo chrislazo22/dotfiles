@@ -33,4 +33,3 @@ source <(fzf --zsh)
 export PATH="/opt/homebrew/opt/postgresql@12/bin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
