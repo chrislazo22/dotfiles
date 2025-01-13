@@ -1,4 +1,5 @@
-# This is Git's per-user configuration file.
 [user]
-	name = Chris Lazo
-	email = lazochristian.cl@gmail.com
+	name = Christian Lazo
+	email = 15347141+chrislazo22@users.noreply.github.com
+[core]
+  pager =
