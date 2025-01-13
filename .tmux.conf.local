@@ -353,6 +353,12 @@ bind a send-prefix
 # sync all panes
 bind S setw synchronize-panes
 
+# swap windows
+unbind-key -T prefix M-Left
+unbind-key -T prefix M-Right
+bind-key -n M-Left swap-window -t -1
+bind-key -n M-Right swap-window -t +1
+
 # vim scrolling
 # set-window-option mode-keys emacs
 

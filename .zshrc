@@ -41,6 +41,7 @@ source <(fzf --zsh)
 export PATH="/opt/homebrew/opt/postgresql@12/bin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+<<<<<<< HEAD
 
 # Add Postgres environment variables for CaseFlow
 export POSTGRES_HOST=localhost
@@ -49,3 +50,5 @@ export POSTGRES_PASSWORD=postgres
 export NLS_LANG=AMERICAN_AMERICA.UTF8
 export FREEDESKTOP_MIME_TYPES_PATH=~/homebrew/share/mime/packages/freedesktop.org.xml
 export OCI_DIR=~/Downloads/instantclient_19_8
+=======
+>>>>>>> main
