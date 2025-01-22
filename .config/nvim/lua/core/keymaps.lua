@@ -8,6 +8,11 @@ local keymap = vim.keymap
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 keymap.set("i", "<Esc>", "<Nop>")
 
+-- save with leader w, save quit with leader wq and quit with leader q
+keymap.set("n", "<leader>w", ":w<CR>", { noremap = true, silent = true, desc = "Save file" })
+keymap.set("n", "<leader>wq", ":wq<CR>", { noremap = true, silent = true, desc = "Save and quit" })
+keymap.set("n", "<leader>q", ":q!<CR>", { noremap = true, silent = true, desc = "Quit without saving" })
+
 -- nvim completion list navigation
 keymap.set("c", "<C-j>", "<C-n>", { noremap = true, silent = true })
 keymap.set("c", "<C-k>", "<C-p>", { noremap = true, silent = true })
