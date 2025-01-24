@@ -1,6 +1,5 @@
 ### CUSTOM ALIASES
 
-
 ### alias (misc)
 alias aliasg='alias | grep' # search file name
 
