@@ -23,10 +23,7 @@ return {
 
 		mason_lspconfig.setup({
 			ensure_installed = {
-				"jsonls",
 				"lua_ls",
-				"marksman",
-				"pyright",
 				"rubocop",
 				"ruby_lsp",
 			},
@@ -35,9 +32,7 @@ return {
 
 		mason_tool_installer.setup({
 			ensure_installed = {
-				"black", -- python formatter
 				"eslint_d",
-				"isort", -- python formatter
 				"stylua", -- lua formatter
 				"prettier", -- prettier formatter
 			},
