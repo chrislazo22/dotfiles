@@ -36,3 +36,13 @@ opt.splitbelow = true -- split horizontal window to the bottom
 
 -- disable mouse support
 opt.mouse = ""
+
+-- color column
+opt.colorcolumn = "120"
+
+vim.cmd([[
+  augroup CustomColorColumn
+    autocmd!
+    autocmd ColorScheme * highlight ColorColumn guibg=#212125
+  augroup END
+]])

@@ -1,5 +1,6 @@
 export PATH="$HOME/.bin:$PATH"
 export PATH="/opt/homebrew/opt/postgresql@12/bin:$PATH"
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -29,3 +30,5 @@ setopt nosharehistory
 source <(fzf --zsh)
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+alias claude="/Users/chrislazo/.claude/local/claude"

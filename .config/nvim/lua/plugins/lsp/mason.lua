@@ -35,6 +35,8 @@ return {
 				"eslint_d",
 				"stylua", -- lua formatter
 				"prettier", -- prettier formatter
+				"swiftlint",
+				"typescript-language-server",
 			},
 		})
 	end,
