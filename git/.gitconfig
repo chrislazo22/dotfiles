@@ -1,0 +1,13 @@
+# This is Git's per-user configuration file.
+[credential]
+	helper = store
+[user]
+	name = Chris Lazo
+	email = lazochristian.cl@gmail.com
+[pager]
+	branch = false
+[core]
+	pager =
+# Temporarily disabled SSH rewrite
+# [url "git@github.com:"]
+# 	insteadOf = https://github.com/
