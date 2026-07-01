@@ -1,0 +1,11 @@
+[credential]
+	helper = store
+[user]
+	name = Christian Lazo
+	email = lazochristian.cl@gmail.com
+[pager]
+	branch = false
+[core]
+	pager = 
+[url "git@github.com:"]
+	insteadOf = https://github.com/

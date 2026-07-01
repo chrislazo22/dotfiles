@@ -1,0 +1,37 @@
+# Exclude gcloud (large, contains credentials)
+gcloud/
+
+# Exclude configstore (npm/yarn global config, not needed)
+configstore/
+
+# Exclude gh credentials
+gh/hosts.yml
+
+# Exclude iterm2 (usually contains machine-specific settings)
+iterm2/
+
+# Exclude zsh (machine-specific env, references credential paths / internal org)
+zsh/
+
+# Exclude any log files
+*.log
+
+# Exclude any credentials or secrets
+**/credentials.json
+**/*secret*
+**/*token*
+**/*.pem
+**/*.key
+
+# OS files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Vim/Neovim temporary files
+**/*.un~
+**/tags
+
+# Tmux plugins (managed by tpm)
+tmux/plugins/
